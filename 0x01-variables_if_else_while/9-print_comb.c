@@ -13,12 +13,10 @@ int main(void)
 	{
 		putchar('0' + n);
 		n++;
+		if (n == 10)
+			continue;
 		putchar(',');
 		putchar(' ');
-		if (n == 9)
-		{
-			continue;
-		}
 	}
 	putchar('\n');
 	return (0);
