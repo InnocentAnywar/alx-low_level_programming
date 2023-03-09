@@ -7,7 +7,7 @@
  * Return: the result of the function
  */
 
-int _pow_recursion(int x, iny y)
+int _pow_recursion(int x, int y)
 {
 	int result = x;
 
