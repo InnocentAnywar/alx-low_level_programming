@@ -8,7 +8,7 @@
  * Return: return values
  */
 
-char *str_concat(char s1, char s2)
+char *str_concat(char *s1, char *s2)
 {
 	char *str;
 	int i, ci = 0, l = 0;
