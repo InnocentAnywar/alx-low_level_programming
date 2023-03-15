@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * free_grid - frees two dimensional grids from p
